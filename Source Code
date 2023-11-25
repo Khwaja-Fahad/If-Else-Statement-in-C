@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    // Initialize variables
+    int y;
+    int x = 25;
+
+    // Check condition using if-else statement
+    if (x >= 6) {
+        y = 6;
+    } else {
+        y = x;
+    }
+
+    // Display the value of y
+    printf("y=%d\n", y);
+
+    return 0;
+}
